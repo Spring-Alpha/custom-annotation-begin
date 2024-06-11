@@ -1,4 +1,4 @@
-package com.example.customannotationbegin;
+package com.example.customannotation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
