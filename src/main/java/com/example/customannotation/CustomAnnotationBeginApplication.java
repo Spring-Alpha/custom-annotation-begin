@@ -1,5 +1,6 @@
 package com.example.customannotation;
 
+import com.example.customannotation.model.User;
 import com.example.customannotation.service.LogExecutionService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -20,6 +21,7 @@ public class CustomAnnotationBeginApplication {
 		return args -> {
 			service.logExecute();
 			service.logExecute2();
+			User model = new User("Md. Alif Bbau");
 		};
 	}
 }
